@@ -1,0 +1,27 @@
+name: Sync HackerRanks commit's to HackerRank-Solutions repo
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.TOKEN }}
+    - name: Check if Commit Message Contains '[HackerRank]'
+      if : "contains(github.event.head_commit.message, 'N')"
+      run : |
+          git clone https://github.com/StarkGang/FridayUB
+          cd FridayUB
+          git submodule add https://github.com/DevsExpo/FridayUB upstream
+          cd upstream
+          git remote add real https://github.com/StarkGang/FridayUB
+          git push origin master
+          git pull real master
+          git push origin master
+          cd ..
+          git commit
+          git push 
