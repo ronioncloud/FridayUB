@@ -110,7 +110,7 @@ UNABLE_TO_CONVERT: "`Unable To Convert To Image, Perhaps Use Some Supported Medi
 SET_DONE_IMAGE: "`Sucessfully Set This Image As Pm Permit Media!`"
 RENAME_INPUT: "`Please Give New Name For File With Extension`"
 R_P: "⚡️`Rename and upload in progress, please wait!`⚡️"
-RENAME_DONE: "__File Renamed and Uploaded. By FridayUserBot. Get your FridayUserBot from__ @fridaychat"
+RENAME_DONE: "__File Renamed and Uploaded. By FridayUB. Get your FridayUB from__ @fridaychat"
 G_S: "**Search Query:**\n `{}` \n\n**Results:**\n {}"
 DUCK_DUCK_GO: "Let me 🦆 DuckDuckGo that for you:\n🔎 [{}]({})"
 STATS: "`Your Stats Obtained in {} seconds`
