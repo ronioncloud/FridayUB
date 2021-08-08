@@ -30,6 +30,7 @@ $ cd FridayUB
 $ python(3) string_gen.py
 ```
 
+
 # Hosting 🖥
 
 ### Deploying To Heroku ⚙
