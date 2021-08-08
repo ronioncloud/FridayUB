@@ -26,7 +26,7 @@
 ### Locally 🏆
 ```
 $ git clone https://github.com/DevsExpo/FridayUB
-$ cd FridayUserbot
+$ cd FridayUB
 $ python(3) string_gen.py
 ```
 
@@ -41,7 +41,7 @@ $ python(3) string_gen.py
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
 $ git clone https://github.com/DevsExpo/FridayUB
 # Open Git Cloned File
-$ cd FridayUserbot
+$ cd FridayUB
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Create local.env with variables as given below
@@ -96,7 +96,7 @@ async def mentioned_(client, message):
 
 * Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 
-FridayUserbot is Free Software: You can use, study share and improve it at your
+FridayUB is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
