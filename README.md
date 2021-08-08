@@ -25,7 +25,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@MIDHUNKMKM/StringGen)
 ### Locally 🏆
 ```
-$ git clone https://github.com/DevsExpo/FridayUserbot
+$ git clone https://github.com/DevsExpo/FridayUB
 $ cd FridayUserbot
 $ python(3) string_gen.py
 ```
@@ -34,12 +34,12 @@ $ python(3) string_gen.py
 
 ### Deploying To Heroku ⚙
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DevsExpo/FridayUserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DevsExpo/FridayUB)
 
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
-$ git clone https://github.com/DevsExpo/FridayUserbot
+$ git clone https://github.com/DevsExpo/FridayUB
 # Open Git Cloned File
 $ cd FridayUserbot
 # Install All Requirements 
